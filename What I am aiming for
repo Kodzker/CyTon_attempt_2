@@ -1,15 +1,45 @@
 > = 1 // error or null
+var can't creted
+
+
 
 > PI = 3 , 14 echo <! PI // PI = array { 3 14 } // python: ['3', '14']
 array { 3 14 }
 
+
+
 > PI = 3.14 echo <! PI // PI = array { 3.14 } // python: ['3.14']
 array { 3.14 }
+
+
 
 > PI = 3,14 echo <! PI // PI = array { 3,14 }
 array { 3,14 }
 
+
+
 > PI = 3 . 14 echo <! PI // PI = array { 3 } . 14
 array { 3 }
 
-> 
+
+> PI // array { 3 }
+
+
+> PI <! PI echo <! PI // array { 3 3 } echo <! array { 3 3 }
+array { 3 array { 3 } }
+
+
+> PI = array { 3 } // array { 3 }
+
+
+> PI , PI echo <! PI // array { 3 3 } echo <! array { 3 }
+array { 3 }
+
+> PI <! echo echo <! PI
+array { array { 3 }
+var can't creted
+array { 3 14 }
+array { 3.14 }
+array { 3 }
+array { 3 array { 3 } }
+array { 3 } }
