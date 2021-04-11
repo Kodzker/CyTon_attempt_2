@@ -1,5 +1,4 @@
-> = 1 // error or null
-var can't creted
+> = 1 // error or null // var can't creted
 
 
 
@@ -37,9 +36,9 @@ array { 3 }
 
 > PI <! echo echo <! PI
 array { array { 3 }
-var can't creted
 array { 3 14 }
 array { 3.14 }
+array { 3,14 }
 array { 3 }
 array { 3 array { 3 } }
 array { 3 } }
