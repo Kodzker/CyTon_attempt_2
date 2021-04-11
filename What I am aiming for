@@ -1,0 +1,15 @@
+> = 1 // error or null
+
+> PI = 3 , 14 echo <! PI // PI = array { 3 14 } // python: ['3', '14']
+array { 3 14 }
+
+> PI = 3.14 echo <! PI // PI = array { 3.14 } // python: ['3.14']
+array { 3.14 }
+
+> PI = 3,14 echo <! PI // PI = array { 3,14 }
+array { 3,14 }
+
+> PI = 3 . 14 echo <! PI // PI = array { 3 } . 14
+array { 3 }
+
+> 
